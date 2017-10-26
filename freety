@@ -1,0 +1,17 @@
+Error
+    at Object.module.exports [as verify] (/home/ubuntu/freety_server/node_modules/jsonwebtoken/verify.js:44:17)
+    at Object.decodeToken (/home/ubuntu/freety_server/models/jwtModule.js:27:23)
+    at /home/ubuntu/freety_server/routes/loginCheck.js:26:31
+    at fn (/home/ubuntu/node_modules/async/lib/async.js:746:34)
+    at /home/ubuntu/node_modules/async/lib/async.js:1213:16
+    at /home/ubuntu/node_modules/async/lib/async.js:166:37
+    at /home/ubuntu/node_modules/async/lib/async.js:706:43
+    at /home/ubuntu/node_modules/async/lib/async.js:167:37
+    at /home/ubuntu/node_modules/async/lib/async.js:1209:30
+    at /home/ubuntu/freety_server/routes/loginCheck.js:21:14
+    at Ping.onOperationComplete [as _callback] (/home/ubuntu/freety_server/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/ubuntu/freety_server/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/home/ubuntu/freety_server/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/home/ubuntu/freety_server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/ubuntu/freety_server/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/ubuntu/freety_server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
